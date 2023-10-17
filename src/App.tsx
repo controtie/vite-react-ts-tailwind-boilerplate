@@ -2,7 +2,6 @@ import React, { ReactElement, useState } from 'react'
 import logo from './logo.svg'
 import viteLogo from './vite.svg'
 import tailwindLogo from './tailwind.svg'
-import { Link } from 'react-router-dom'
 
 function App(): ReactElement {
   const [count, setCount] = useState(0)
@@ -34,38 +33,6 @@ function App(): ReactElement {
             src/App.tsx
           </code>{' '}
           and save to test HMR updates.
-        </p>
-        <p>
-          <Link to="/about" className="text-purple-400 underline">
-            about
-          </Link>
-          {' | '}
-          <a
-            className="text-purple-400 underline"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="text-purple-400 underline"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-          {' | '}
-          <a
-            className="text-purple-400 underline"
-            href="https://tailwindcss.com/docs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS Docs
-          </a>
         </p>
       </header>
     </div>

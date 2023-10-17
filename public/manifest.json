@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "My Test App Extension",
+  "version": "1.0",
+  "description": "Test App Extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}
